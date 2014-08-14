@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37698907199A67F600A1D403 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37698906199A67F600A1D403 /* Foundation.framework */; };
+		37698909199A67F600A1D403 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37698908199A67F600A1D403 /* CoreGraphics.framework */; };
+		3769890B199A67F600A1D403 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3769890A199A67F600A1D403 /* UIKit.framework */; };
+		3769890D199A67F600A1D403 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3769890C199A67F600A1D403 /* CoreData.framework */; };
+		37698913199A67F600A1D403 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 37698911199A67F600A1D403 /* InfoPlist.strings */; };
+		37698915199A67F600A1D403 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37698914199A67F600A1D403 /* main.m */; };
+		37698919199A67F600A1D403 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37698918199A67F600A1D403 /* AppDelegate.m */; };
+		3769891C199A67F600A1D403 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3769891A199A67F600A1D403 /* Main.storyboard */; };
+		3769891F199A67F600A1D403 /* TroyStory4.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3769891D199A67F600A1D403 /* TroyStory4.xcdatamodeld */; };
+		37698922199A67F600A1D403 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37698921199A67F600A1D403 /* MasterViewController.m */; };
+		37698925199A67F600A1D403 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37698924199A67F600A1D403 /* DetailViewController.m */; };
+		37698927199A67F600A1D403 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37698926199A67F600A1D403 /* Images.xcassets */; };
+		3769892E199A67F600A1D403 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3769892D199A67F600A1D403 /* XCTest.framework */; };
+		3769892F199A67F600A1D403 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37698906199A67F600A1D403 /* Foundation.framework */; };
+		37698930199A67F600A1D403 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3769890A199A67F600A1D403 /* UIKit.framework */; };
+		37698931199A67F600A1D403 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3769890C199A67F600A1D403 /* CoreData.framework */; };
+		37698939199A67F600A1D403 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 37698937199A67F600A1D403 /* InfoPlist.strings */; };
+		3769893B199A67F600A1D403 /* TroyStory4Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3769893A199A67F600A1D403 /* TroyStory4Tests.m */; };
+		37698949199A77B600A1D403 /* Trojan.m in Sources */ = {isa = PBXBuildFile; fileRef = 37698948199A77B600A1D403 /* Trojan.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		37698932199A67F600A1D403 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 376988FB199A67F600A1D403 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37698902199A67F600A1D403;
+			remoteInfo = TroyStory4;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		37698903199A67F600A1D403 /* TroyStory4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TroyStory4.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37698906199A67F600A1D403 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		37698908199A67F600A1D403 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3769890A199A67F600A1D403 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3769890C199A67F600A1D403 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		37698910199A67F600A1D403 /* TroyStory4-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TroyStory4-Info.plist"; sourceTree = "<group>"; };
+		37698912199A67F600A1D403 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		37698914199A67F600A1D403 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		37698916199A67F600A1D403 /* TroyStory4-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TroyStory4-Prefix.pch"; sourceTree = "<group>"; };
+		37698917199A67F600A1D403 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		37698918199A67F600A1D403 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3769891B199A67F600A1D403 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3769891E199A67F600A1D403 /* TroyStory4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TroyStory4.xcdatamodel; sourceTree = "<group>"; };
+		37698920199A67F600A1D403 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		37698921199A67F600A1D403 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		37698923199A67F600A1D403 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		37698924199A67F600A1D403 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		37698926199A67F600A1D403 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3769892C199A67F600A1D403 /* TroyStory4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TroyStory4Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3769892D199A67F600A1D403 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		37698936199A67F600A1D403 /* TroyStory4Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TroyStory4Tests-Info.plist"; sourceTree = "<group>"; };
+		37698938199A67F600A1D403 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3769893A199A67F600A1D403 /* TroyStory4Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TroyStory4Tests.m; sourceTree = "<group>"; };
+		37698947199A77B600A1D403 /* Trojan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trojan.h; sourceTree = "<group>"; };
+		37698948199A77B600A1D403 /* Trojan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Trojan.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37698900199A67F600A1D403 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37698909199A67F600A1D403 /* CoreGraphics.framework in Frameworks */,
+				3769890D199A67F600A1D403 /* CoreData.framework in Frameworks */,
+				3769890B199A67F600A1D403 /* UIKit.framework in Frameworks */,
+				37698907199A67F600A1D403 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37698929199A67F600A1D403 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3769892E199A67F600A1D403 /* XCTest.framework in Frameworks */,
+				37698931199A67F600A1D403 /* CoreData.framework in Frameworks */,
+				37698930199A67F600A1D403 /* UIKit.framework in Frameworks */,
+				3769892F199A67F600A1D403 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		376988FA199A67F600A1D403 = {
+			isa = PBXGroup;
+			children = (
+				3769890E199A67F600A1D403 /* TroyStory4 */,
+				37698934199A67F600A1D403 /* TroyStory4Tests */,
+				37698905199A67F600A1D403 /* Frameworks */,
+				37698904199A67F600A1D403 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37698904199A67F600A1D403 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37698903199A67F600A1D403 /* TroyStory4.app */,
+				3769892C199A67F600A1D403 /* TroyStory4Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37698905199A67F600A1D403 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37698906199A67F600A1D403 /* Foundation.framework */,
+				37698908199A67F600A1D403 /* CoreGraphics.framework */,
+				3769890A199A67F600A1D403 /* UIKit.framework */,
+				3769890C199A67F600A1D403 /* CoreData.framework */,
+				3769892D199A67F600A1D403 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3769890E199A67F600A1D403 /* TroyStory4 */ = {
+			isa = PBXGroup;
+			children = (
+				37698917199A67F600A1D403 /* AppDelegate.h */,
+				37698918199A67F600A1D403 /* AppDelegate.m */,
+				3769891A199A67F600A1D403 /* Main.storyboard */,
+				37698920199A67F600A1D403 /* MasterViewController.h */,
+				37698921199A67F600A1D403 /* MasterViewController.m */,
+				37698923199A67F600A1D403 /* DetailViewController.h */,
+				37698924199A67F600A1D403 /* DetailViewController.m */,
+				37698926199A67F600A1D403 /* Images.xcassets */,
+				37698947199A77B600A1D403 /* Trojan.h */,
+				37698948199A77B600A1D403 /* Trojan.m */,
+				3769891D199A67F600A1D403 /* TroyStory4.xcdatamodeld */,
+				3769890F199A67F600A1D403 /* Supporting Files */,
+			);
+			path = TroyStory4;
+			sourceTree = "<group>";
+		};
+		3769890F199A67F600A1D403 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				37698910199A67F600A1D403 /* TroyStory4-Info.plist */,
+				37698911199A67F600A1D403 /* InfoPlist.strings */,
+				37698914199A67F600A1D403 /* main.m */,
+				37698916199A67F600A1D403 /* TroyStory4-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		37698934199A67F600A1D403 /* TroyStory4Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3769893A199A67F600A1D403 /* TroyStory4Tests.m */,
+				37698935199A67F600A1D403 /* Supporting Files */,
+			);
+			path = TroyStory4Tests;
+			sourceTree = "<group>";
+		};
+		37698935199A67F600A1D403 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				37698936199A67F600A1D403 /* TroyStory4Tests-Info.plist */,
+				37698937199A67F600A1D403 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37698902199A67F600A1D403 /* TroyStory4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3769893E199A67F600A1D403 /* Build configuration list for PBXNativeTarget "TroyStory4" */;
+			buildPhases = (
+				376988FF199A67F600A1D403 /* Sources */,
+				37698900199A67F600A1D403 /* Frameworks */,
+				37698901199A67F600A1D403 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TroyStory4;
+			productName = TroyStory4;
+			productReference = 37698903199A67F600A1D403 /* TroyStory4.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3769892B199A67F600A1D403 /* TroyStory4Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37698941199A67F600A1D403 /* Build configuration list for PBXNativeTarget "TroyStory4Tests" */;
+			buildPhases = (
+				37698928199A67F600A1D403 /* Sources */,
+				37698929199A67F600A1D403 /* Frameworks */,
+				3769892A199A67F600A1D403 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37698933199A67F600A1D403 /* PBXTargetDependency */,
+			);
+			name = TroyStory4Tests;
+			productName = TroyStory4Tests;
+			productReference = 3769892C199A67F600A1D403 /* TroyStory4Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		376988FB199A67F600A1D403 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Nicolas Semenas";
+				TargetAttributes = {
+					3769892B199A67F600A1D403 = {
+						TestTargetID = 37698902199A67F600A1D403;
+					};
+				};
+			};
+			buildConfigurationList = 376988FE199A67F600A1D403 /* Build configuration list for PBXProject "TroyStory4" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 376988FA199A67F600A1D403;
+			productRefGroup = 37698904199A67F600A1D403 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37698902199A67F600A1D403 /* TroyStory4 */,
+				3769892B199A67F600A1D403 /* TroyStory4Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37698901199A67F600A1D403 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37698927199A67F600A1D403 /* Images.xcassets in Resources */,
+				37698913199A67F600A1D403 /* InfoPlist.strings in Resources */,
+				3769891C199A67F600A1D403 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3769892A199A67F600A1D403 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37698939199A67F600A1D403 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		376988FF199A67F600A1D403 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37698925199A67F600A1D403 /* DetailViewController.m in Sources */,
+				37698949199A77B600A1D403 /* Trojan.m in Sources */,
+				37698922199A67F600A1D403 /* MasterViewController.m in Sources */,
+				3769891F199A67F600A1D403 /* TroyStory4.xcdatamodeld in Sources */,
+				37698919199A67F600A1D403 /* AppDelegate.m in Sources */,
+				37698915199A67F600A1D403 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37698928199A67F600A1D403 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3769893B199A67F600A1D403 /* TroyStory4Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		37698933199A67F600A1D403 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37698902199A67F600A1D403 /* TroyStory4 */;
+			targetProxy = 37698932199A67F600A1D403 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		37698911199A67F600A1D403 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37698912199A67F600A1D403 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3769891A199A67F600A1D403 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3769891B199A67F600A1D403 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		37698937199A67F600A1D403 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37698938199A67F600A1D403 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3769893C199A67F600A1D403 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3769893D199A67F600A1D403 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3769893F199A67F600A1D403 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TroyStory4/TroyStory4-Prefix.pch";
+				INFOPLIST_FILE = "TroyStory4/TroyStory4-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		37698940199A67F600A1D403 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TroyStory4/TroyStory4-Prefix.pch";
+				INFOPLIST_FILE = "TroyStory4/TroyStory4-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		37698942199A67F600A1D403 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TroyStory4.app/TroyStory4";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TroyStory4/TroyStory4-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TroyStory4Tests/TroyStory4Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		37698943199A67F600A1D403 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TroyStory4.app/TroyStory4";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TroyStory4/TroyStory4-Prefix.pch";
+				INFOPLIST_FILE = "TroyStory4Tests/TroyStory4Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		376988FE199A67F600A1D403 /* Build configuration list for PBXProject "TroyStory4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3769893C199A67F600A1D403 /* Debug */,
+				3769893D199A67F600A1D403 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3769893E199A67F600A1D403 /* Build configuration list for PBXNativeTarget "TroyStory4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3769893F199A67F600A1D403 /* Debug */,
+				37698940199A67F600A1D403 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		37698941199A67F600A1D403 /* Build configuration list for PBXNativeTarget "TroyStory4Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37698942199A67F600A1D403 /* Debug */,
+				37698943199A67F600A1D403 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3769891D199A67F600A1D403 /* TroyStory4.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3769891E199A67F600A1D403 /* TroyStory4.xcdatamodel */,
+			);
+			currentVersion = 3769891E199A67F600A1D403 /* TroyStory4.xcdatamodel */;
+			path = TroyStory4.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 376988FB199A67F600A1D403 /* Project object */;
+}
